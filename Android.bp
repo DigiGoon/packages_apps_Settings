@@ -33,7 +33,8 @@ android_library {
     aaptflags: ["--extra-packages org.descendant.health"],
 
     resource_dirs: ["res",
-                    "DescendantHealth/res"
+                    "DescendantHealth/res",
+                    "TouchGestures/res"
     ],
 
     static_libs: [
